@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <form>
+        <div>
+        <h2>Formulario</h2> 
+        <label for="modelo">Nome:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+    
+        <label for="ano">Data de Nascimento:</label><br>
+        <input type="date" id="nasc" name="nasc"><br><br>
+    
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br><br>
+        
+        <label for="curso">Curso:</label><br>
+        <input type="text" id="curso" name="curso"><br><br>
+    </div>
+    
+        <input type="button" class="button" onclick="AddAluno()" value="Adicionar">
+        <input type="button" class="button" onclick="ViewAlunos()" value="Exibir"><br></br>
+        <input type="button" class="button" onclick="ViewName()" value="Exibir Nomes">
+        <input type="button" class="button" onclick="UpdateCurso()" value="Alterar Curso">
+
+
+
+
+
+    </form>
+
+
+
+
+</body>
+</html>
